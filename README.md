@@ -58,5 +58,6 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 | POST   | `/`      | Create a new task  |
 | DELETE | `/{id}/delete` | Delete a task      |
 
+![Screenshot of UI](screenshots/ui.png)
 
 
