@@ -4,10 +4,9 @@
 This is a simple To-Do application built using **Spring Boot** and **MySQL**. It allows users to manage their tasks efficiently.
 
 ## Features
-- Add, update, and delete tasks
+- Add and delete tasks
 - Mark tasks as completed
 - Store tasks in a MySQL database
-- RESTful API implementation
 
 ## Tech Stack
 - **Java 17+**
@@ -55,10 +54,9 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 ### API Endpoints
 | Method | Endpoint       | Description         |
 |--------|--------------|---------------------|
-| GET    | `/tasks`      | Get all tasks      |
-| POST   | `/tasks`      | Create a new task  |
-| PUT    | `/tasks/{id}` | Update a task      |
-| DELETE | `/tasks/{id}` | Delete a task      |
+| GET    | `/`      | Get all tasks      |
+| POST   | `/`      | Create a new task  |
+| DELETE | `/{id}delete` | Delete a task      |
 
 
 
